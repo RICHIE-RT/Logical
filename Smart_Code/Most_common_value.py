@@ -19,4 +19,3 @@ values = Counter(raw_data).most_common(nof_common_values)
 
 for val in values:
     print(*val)
-
