@@ -33,4 +33,4 @@ for _ in range(int(input())):
         
 for i, j in dicto.items():
     print(i, j)
-    
+ 
