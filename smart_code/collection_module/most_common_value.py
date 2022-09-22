@@ -17,5 +17,4 @@ raw_data = sorted(input())
 nof_common_values = int(input())
 values = Counter(raw_data).most_common(nof_common_values)
 
-for val in values:
-    print(*val)
+for val in values : print(*val)
