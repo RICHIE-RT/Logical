@@ -32,3 +32,4 @@ for i in range(int(input())):
     
 for j in d:
     print(j, end = ' ')
+
