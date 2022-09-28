@@ -1,4 +1,5 @@
 '''
+^Special_list_operation
 Input Format :
 The first line contains an integer N, the number of operations.
 The next N lines contains the space separated names of methods and their values.

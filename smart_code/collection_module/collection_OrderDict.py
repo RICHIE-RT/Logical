@@ -1,4 +1,5 @@
 '''
+^Dictionary_fix_occurence
 Input Format :
 The first line contains the number of items, N.
 The next N lines contains the item's name and price, separated by a space.
