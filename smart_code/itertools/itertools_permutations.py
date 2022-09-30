@@ -1,7 +1,7 @@
 # This tool returns successive r length permutations of elements in an iterable.
 '''
 Input Format :
-A single line containing the space separated string  and the integer value .
+A single line containing the space separated string  and the integer value.
 The string contains only UPPERCASE characters.
 
 Output Format :
