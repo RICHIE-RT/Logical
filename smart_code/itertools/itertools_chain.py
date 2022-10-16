@@ -9,8 +9,19 @@ from itertools import chain
 iterator1 = 'ABC'
 iterator2 = '123'
 
-print(list(chain(iterator1, iterator2)))
+# print(list(chain(iterator1, iterator2)))
 
 """Result
+['A', 'B', 'C', '1', '2', '3']
+"""
+
+iterator3 = ['ABC']
+iterator4 = ['123']
+
+print(list(chain.from_iterable(iterator3)))
+print(list(chain.from_iterable(iterator3, iterator4)))
+
+"""Result
+['A', 'B', 'C']
 ['A', 'B', 'C', '1', '2', '3']
 """
